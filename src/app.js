@@ -83,7 +83,7 @@ weather(req.query.address,(error,{temp,feels}={})=>{
 
   else{
     res.send({
-        temperature:temp,
+        temperature:temp+"Degree celsius",
         feelslike:feels,
         address:req.query.address
     })
