@@ -2,7 +2,7 @@
 
 //fetch api comes from browser
 
-
+console.log("hi")
 const weatherForm=document.querySelector("form")
 const searchelm=document.querySelector("input")
 const mesg1=document.getElementById("mesg-1")
