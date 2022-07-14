@@ -1,0 +1,29 @@
+<!DOCTYPE html!>
+
+<html>
+
+<head>
+    <title>Weather</title>
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+
+<body>
+ <div class="main-content">   
+    {{>header}}
+    <img class="portrait" src="/dog.jpg" alt="Dog picture" >
+    <h1 >{{title}}</h1>
+    <form >
+        <input type="text" placeholder="Add location">
+        <button>Search</button>
+    </form>
+
+    <p id="mesg-1"></p>
+    <p id="mesg-2"></p>
+</div> 
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
