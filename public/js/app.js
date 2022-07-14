@@ -1,4 +1,4 @@
-console.log("client side js file is ladded")
+
 
 //fetch api comes from browser
 
