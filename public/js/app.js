@@ -23,7 +23,7 @@ weatherForm.addEventListener("submit",(e)=>{
         else{
             console.log(data.current.feelslike_c)
             mesg1.innerText=data.current.temp_c+" Degree celsius"
-            mesg2.innerHTML=data.current.feels+" Degree celsius"
+            mesg2.innerHTML=data.current.feelslike_c+" Degree celsius"
             
            
 
